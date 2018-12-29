@@ -3,6 +3,7 @@ title: "Seventh"
 date: 2018-10-07T11:39:29+02:00
 publishdate: 2018-10-07T11:39:29+02:00
 image: "/images/blog/7.jpg"
+type: post
 tags: ["interesting"]
 comments: false
 ---

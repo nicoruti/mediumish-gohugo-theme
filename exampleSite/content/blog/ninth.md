@@ -3,6 +3,7 @@ title: "Ninth"
 date: 2018-10-07T11:40:14+02:00
 publishdate: 2018-10-07T11:40:14+02:00
 image: "/images/blog/9.jpg"
+type: post
 tags: ["interesting", "drink"]
 comments: false
 ---

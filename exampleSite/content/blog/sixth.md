@@ -3,6 +3,7 @@ title: "Sixth"
 date: 2018-10-07T11:39:25+02:00
 publishdate: 2018-10-07T11:39:25+02:00
 image: "/images/blog/6.jpg"
+type: post
 tags: ["interesting", "drink"]
 comments: false
 ---
