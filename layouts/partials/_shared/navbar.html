@@ -4,11 +4,10 @@
     <div class="container pr-0">
         <!-- Begin Logo -->
         <a class="navbar-brand" href="{{ .Site.BaseURL }}/">
-
-            {{ with .Site.Params.logo }}
-            <img src="{{ . | urlize | relURL }}" alt="logo">
+            {{ if .IsHome }}
+                <img src="{{ .Site.Params.homeLogo | urlize | relURL }}" alt="logo">
             {{ else }}
-            <span style="font-family:Righteous;">{{.Site.Title}}</span>
+                <img src="{{ .Site.Params.logo | urlize | relURL }}" alt="logo">
             {{ end }}
         </a>
         <!-- End Logo -->
