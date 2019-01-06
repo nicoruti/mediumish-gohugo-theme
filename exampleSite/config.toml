@@ -13,7 +13,8 @@ publishDir = "docs"
   homeLogo = "/images/logo.png"
   logo = "/images/logo.png"
   description ="the clean blog!"
-  #mailchimp = "you can provide a mailchimp-link here"
+  #mailchimp = "see Readme"
+  #mailprotect = "see Readme"
 
 [params.author]
   name = "John Doe"
