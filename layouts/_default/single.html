@@ -46,6 +46,8 @@
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     {{with .NextInSection}}
                         <a class="prev d-block col-md-6" href="{{.URL}}"> &laquo; {{.Title}}</a>
+                    {{else}}
+                        <div class="prev d-block col-md-6"></div>
                     {{end}}
                     {{with .PrevInSection}}
                         <a class="next d-block col-md-6 text-lg-right" href="{{.URL}}">{{.Title}} &raquo;</a>
