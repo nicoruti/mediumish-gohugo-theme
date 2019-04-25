@@ -29,18 +29,6 @@
                         {{ .Content}}
                     </div>
                     
-                    <!-- Post Categories -->
-                    <div class="after-post-tags">
-                        <ul class="tags">
-                        {{ range .Params.tags }}
-                        <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
-                    <!-- End Categories -->
-                    
                     <!-- Prev/Next -->
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     {{with .NextInSection}}

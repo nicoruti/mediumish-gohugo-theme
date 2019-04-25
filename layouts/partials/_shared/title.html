@@ -1,8 +1,10 @@
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ .Site.Title }}</h1>
-    <p class="lead">
-         {{ .Site.Params.Description }}
-    </p>
+	<h1 class="sitetitle">{{ .Site.Title }}</h1>
+	{{ if .IsHome }}
+	    <p class="lead">{{ .Site.Params.Description }}</p>
+	{{ else }}
+	    <p class="lead">{{ .Title }}</p>
+	{{ end }}
 </div>
