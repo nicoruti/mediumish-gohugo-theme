@@ -638,6 +638,11 @@ iframe {
        margin-top:30px;
    }
 }
+@media print {
+    .row {
+        display: block;
+    }
+}
 .card .img-fluid {
    width:100%;
 }
