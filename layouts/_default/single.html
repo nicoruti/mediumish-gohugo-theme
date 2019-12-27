@@ -32,12 +32,12 @@
                     <!-- Prev/Next -->
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     {{with .NextInSection}}
-                        <a class="prev d-block col-md-6" href="{{.Permalink}}"> &laquo; {{.Title}}</a>
+                        <a class="prev d-block col-md-6" href="{{.RelPermalink}}"> &laquo; {{.Title}}</a>
                     {{else}}
                         <div class="prev d-block col-md-6"></div>
                     {{end}}
                     {{with .PrevInSection}}
-                        <a class="next d-block col-md-6 text-lg-right" href="{{.Permalink}}">{{.Title}} &raquo;</a>
+                        <a class="next d-block col-md-6 text-lg-right" href="{{.RelPermalink}}">{{.Title}} &raquo;</a>
                     {{end}}
                     <div class="clearfix"></div>
                     </div>
